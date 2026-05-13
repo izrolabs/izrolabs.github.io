@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Israel">
+        <title>Personal Landing Page</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <header class="page-header">
+           <div class="name-title">
+        <h1>Israel</h1>
+            <p>A passionate frontend developer</p>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-container">
+                    <li class="nav-link"><a href="#">About</a></li>
+                    <li class="nav-link"><a href="#skills-view">Skills</a></li>
+                    <li class="nav-link"><a href="#projects-view">Projects</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta"> Message Me</a>
+       </header>
+       <main>
+         <section class="hero">
+            <h2>Hi, I'm Israel</h2>
+            <p>I build clean and responsive websites</p>
+            <a href="#projects-view" class="view-btn">View my projects</a>
+         </section>
+         <section class="card" id="skills-view">
+            <h2>About Me</h2>
+            <p>My name is Israel, I am a passionate frontend developer using HTML and CSS to craft websites that scale across different screen sizes.</p>
+            <p>I also play games during my leisure time as a way to refresh myself.</p>
+         </section>
+         <section class="card" id="projects-view">
+            <h2>Skills</h2>
+            <div class="skill-container">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">Responsive Website Design</div>
+                <div class="skill">Gaming</div>
+            </div>
+         </section>
+         <section class="card">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project">Portfolio Website</div>
+                <div class="project">Landing Page</div>
+                <div class="project">Contact Form</div>
+                <div class="project">Login+Signup Page</div>
+            </div>
+         </section>
+         <section class="card">
+            <h2>Contact Me</h2>
+            <form class="contact-form" id="contact">
+                <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="Name" required>
+              </div>
+              <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+              <label for="message">Message</label>
+              <textarea rows="4" id="message" name="message" required></textarea>
+            </div>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <button type="submit" class="msg-btn">Send Message</button>
+            </form>
+        </section>
+       </main>
+       <footer class="page-footer">
+         <p>&copy 2026; Izrolabs</p>
+       </footer>
+    </body>
+</html>
